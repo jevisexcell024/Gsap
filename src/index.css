@@ -1,3 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -24,34 +34,68 @@ body {
   font-size: 4rem;
   margin: 0;
 }
-
-.animation-section {
-  position: relative;
-  height: 300vh;
-}
-
-.wildlife-image {
-  position: absolute;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to right, #000000, #1a1a1a, #000000);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.3rem 0rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 50;
 }
 
-.image-1 {
-  background-image: url('https://images.unsplash.com/photo-1555169062-013468b47731?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
-.image-2 {
-  background-image: url('https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+.logo:hover {
+  color: #a855f7; 
 }
 
-.image-3 {
-  background-image: url('https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.1rem;
 }
 
-.content-section {
-  padding: 100px 20px;
-  text-align: center;
-  background-color: #fff;
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
+
+.nav-links li a:hover {
+  color: #a855f7;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.hamburger button:hover {
+  color: #a855f7;
+}
+
+
+/* hero section  */
+
