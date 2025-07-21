@@ -99,3 +99,61 @@ nav {
 
 /* hero section  */
 
+.landing-page{
+  min-height: 100vh;
+  background: linear-gradient(to right, #0c0909, #1a1a1a, #000000);
+}
+.text-container {
+  padding: 400px 160px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+
+ h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f0f0f0;
+}
+
+ p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+ button {
+  background: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero button:hover {
+  background: #d97706;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
